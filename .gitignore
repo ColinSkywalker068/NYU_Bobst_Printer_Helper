@@ -27,6 +27,3 @@ Thumbs.db
 *_bobst_safe_[0-9]*.pdf
 *_size_max.pdf
 
-# Keep the launcher directory, but do not track local launcher scripts.
-scripts/*
-!scripts/.gitkeep
