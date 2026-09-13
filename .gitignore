@@ -1,0 +1,32 @@
+# Local Python environments and package/build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Locally generated PrintHelper outputs
+*_bobst_safe.pdf
+*_bobst_safe_[0-9]*.pdf
+*_size_max.pdf
+
+# Keep the launcher directory, but do not track local launcher scripts.
+scripts/*
+!scripts/.gitkeep

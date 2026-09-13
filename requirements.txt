@@ -1,0 +1,20 @@
+# PrintHelper 1.0.0 tested environment (Python 3.12 on Windows).
+# Runtime dependencies declared in pyproject.toml:
+pypdf==6.18.1
+Pillow==12.3.0
+fonttools==4.65.0
+
+# Test/development dependency:
+pytest==9.1.1
+
+# Transitive dependencies of pytest (pinned for reproducible setup):
+colorama==0.4.6
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+
+# Ghostscript is an external system dependency, not installable with pip.
+# Windows: https://ghostscript.com/releases/gsdnld.html
+# macOS: brew install ghostscript
+# Ubuntu/Debian/WSL: sudo apt install ghostscript

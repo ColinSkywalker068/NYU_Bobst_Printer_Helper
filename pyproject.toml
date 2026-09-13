@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "printhelper"
+version = "1.0.0"
+description = "Prepare PDFs for reliable, 100%-scale Letter printing"
+requires-python = ">=3.10"
+dependencies = ["pypdf>=4.0", "Pillow>=10.0", "fonttools>=4.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
